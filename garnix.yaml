@@ -1,0 +1,9 @@
+# Garnix CI configuration
+# See: https://garnix.io/docs/ci/yaml_config/
+
+builds:
+  include:
+    - "packages.x86_64-linux.*"
+    - "packages.aarch64-darwin.*"
+    - "packages.aarch64-linux.*"
+  exclude: []
